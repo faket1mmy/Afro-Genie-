@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+    background-color: #0D0700;
+    color: #F5E6D3;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #2D1A00 #0D0700;
+  }
+
+  *::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #0D0700;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #2D1A00;
+    border-radius: 3px;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, #D4A853 0%, #C45A27 50%, #E8A070 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .bg-genie-gradient {
+    background: linear-gradient(135deg, #D4A853 0%, #C45A27 50%, #8B1A4A 100%);
+  }
+
+  .border-gradient {
+    border: 1px solid transparent;
+    background: linear-gradient(#1A0D00, #1A0D00) padding-box,
+                linear-gradient(135deg, #D4A853, #C45A27) border-box;
+  }
+
+  .pattern-dots {
+    background-image: radial-gradient(#D4A853 1px, transparent 1px);
+    background-size: 24px 24px;
+    opacity: 0.08;
+  }
+}
+
+.prose-genie p { margin-bottom: 0.75rem; }
+.prose-genie strong { color: #D4A853; font-weight: 600; }
+.prose-genie ul { list-style: disc; padding-left: 1.25rem; margin-bottom: 0.75rem; }
+.prose-genie li { margin-bottom: 0.25rem; }
+.prose-genie h3 { color: #D4A853; font-weight: 600; margin-bottom: 0.5rem; margin-top: 0.75rem; }
