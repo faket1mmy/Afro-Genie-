@@ -1,0 +1,40 @@
+{
+  "slug": "kaabo-si-ile",
+  "title": "Káàbọ̀ Sí Ilé",
+  "artist": "Afro-Genie Fixture Band",
+  "language": "yor",
+  "genre": [
+    "afrobeats"
+  ],
+  "mood": [
+    "warm",
+    "celebratory"
+  ],
+  "bpm": 108,
+  "musicalKey": "F minor",
+  "durationMs": 60000,
+  "audio": {
+    "file": "instrumental.m4a",
+    "format": "m4a",
+    "bitrate": "128k",
+    "sampleRate": 44100,
+    "loudnessLufs": -14.0,
+    "checksum": "sha256:f47e6ad8ac7b52f5dfc1fa728edfcef8790ff34374bd52f89260654406a70ff1",
+    "source": "re_recorded"
+  },
+  "lyrics": {
+    "original": {
+      "file": "original.elrc",
+      "checksum": "sha256:86c7f2204e1bf7ef962aa4fd56c2ee6c583171c95db03578eacf847b63012fd2"
+    },
+    "romanised": {
+      "file": "romanised.elrc",
+      "checksum": "sha256:7838037c98608a68c13b63e3ebe89f1f73877a864b6fd7eb275d6246d6427032"
+    },
+    "translated": {
+      "file": "translated.elrc",
+      "checksum": "sha256:c0e20a43df0cb8707136af8eab700d826fd58b1909210b48df7077164af90a04"
+    }
+  },
+  "lineCount": 15
+}

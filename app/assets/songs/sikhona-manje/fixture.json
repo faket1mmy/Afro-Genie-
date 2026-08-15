@@ -1,0 +1,40 @@
+{
+  "slug": "sikhona-manje",
+  "title": "Sikhona Manje",
+  "artist": "Afro-Genie Fixture Band",
+  "language": "zul",
+  "genre": [
+    "amapiano"
+  ],
+  "mood": [
+    "late-night",
+    "hypnotic"
+  ],
+  "bpm": 112,
+  "musicalKey": "G minor",
+  "durationMs": 62200,
+  "audio": {
+    "file": "instrumental.m4a",
+    "format": "m4a",
+    "bitrate": "128k",
+    "sampleRate": 44100,
+    "loudnessLufs": -14.0,
+    "checksum": "sha256:071966310e889870470fe81aec6db57c752e9e7976652358d2a230c3f2e3b8f0",
+    "source": "re_recorded"
+  },
+  "lyrics": {
+    "original": {
+      "file": "original.elrc",
+      "checksum": "sha256:4fd404a5c949adf6fd36e3b629bdfe7c8c0c3b5f70b67ba6c2afa78f1922a9b0"
+    },
+    "romanised": {
+      "file": "romanised.elrc",
+      "checksum": "sha256:24fcc352b8b94e050929cc627883c5973a3fbddea776081e973df181d55a9a7b"
+    },
+    "translated": {
+      "file": "translated.elrc",
+      "checksum": "sha256:64726437027531c1d2821fd974b5b5a3365888028b0a5de48a3b6cde5945f722"
+    }
+  },
+  "lineCount": 15
+}

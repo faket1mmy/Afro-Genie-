@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "kaabo-si-ile",
+    "title": "Káàbọ̀ Sí Ilé",
+    "artist": "Afro-Genie Fixture Band",
+    "language": "yor",
+    "genre": [
+      "afrobeats"
+    ],
+    "mood": [
+      "warm",
+      "celebratory"
+    ],
+    "bpm": 108,
+    "musicalKey": "F minor",
+    "durationMs": 60000,
+    "audio": {
+      "file": "instrumental.m4a",
+      "format": "m4a",
+      "bitrate": "128k",
+      "sampleRate": 44100,
+      "loudnessLufs": -14.0,
+      "checksum": "sha256:f47e6ad8ac7b52f5dfc1fa728edfcef8790ff34374bd52f89260654406a70ff1",
+      "source": "re_recorded"
+    },
+    "lyrics": {
+      "original": {
+        "file": "original.elrc",
+        "checksum": "sha256:86c7f2204e1bf7ef962aa4fd56c2ee6c583171c95db03578eacf847b63012fd2"
+      },
+      "romanised": {
+        "file": "romanised.elrc",
+        "checksum": "sha256:7838037c98608a68c13b63e3ebe89f1f73877a864b6fd7eb275d6246d6427032"
+      },
+      "translated": {
+        "file": "translated.elrc",
+        "checksum": "sha256:c0e20a43df0cb8707136af8eab700d826fd58b1909210b48df7077164af90a04"
+      }
+    },
+    "lineCount": 15
+  },
+  {
+    "slug": "sikhona-manje",
+    "title": "Sikhona Manje",
+    "artist": "Afro-Genie Fixture Band",
+    "language": "zul",
+    "genre": [
+      "amapiano"
+    ],
+    "mood": [
+      "late-night",
+      "hypnotic"
+    ],
+    "bpm": 112,
+    "musicalKey": "G minor",
+    "durationMs": 62200,
+    "audio": {
+      "file": "instrumental.m4a",
+      "format": "m4a",
+      "bitrate": "128k",
+      "sampleRate": 44100,
+      "loudnessLufs": -14.0,
+      "checksum": "sha256:071966310e889870470fe81aec6db57c752e9e7976652358d2a230c3f2e3b8f0",
+      "source": "re_recorded"
+    },
+    "lyrics": {
+      "original": {
+        "file": "original.elrc",
+        "checksum": "sha256:4fd404a5c949adf6fd36e3b629bdfe7c8c0c3b5f70b67ba6c2afa78f1922a9b0"
+      },
+      "romanised": {
+        "file": "romanised.elrc",
+        "checksum": "sha256:24fcc352b8b94e050929cc627883c5973a3fbddea776081e973df181d55a9a7b"
+      },
+      "translated": {
+        "file": "translated.elrc",
+        "checksum": "sha256:64726437027531c1d2821fd974b5b5a3365888028b0a5de48a3b6cde5945f722"
+      }
+    },
+    "lineCount": 15
+  },
+  {
+    "slug": "how-you-dey",
+    "title": "How You Dey",
+    "artist": "Afro-Genie Fixture Band",
+    "language": "pcm",
+    "genre": [
+      "highlife"
+    ],
+    "mood": [
+      "bright",
+      "easy"
+    ],
+    "bpm": 96,
+    "musicalKey": "C major",
+    "durationMs": 62500,
+    "audio": {
+      "file": "instrumental.m4a",
+      "format": "m4a",
+      "bitrate": "128k",
+      "sampleRate": 44100,
+      "loudnessLufs": -14.0,
+      "checksum": "sha256:4e0bb2d54c536e4088bb7a24f83e2a2e0c0ea38dbb87ed4ab9a07aa35a919bfb",
+      "source": "re_recorded"
+    },
+    "lyrics": {
+      "original": {
+        "file": "original.elrc",
+        "checksum": "sha256:5220807bf3923be1e0df798ca73b19592929823fcef64fa4168651c74954bb59"
+      },
+      "romanised": {
+        "file": "romanised.elrc",
+        "checksum": "sha256:4a29a67865122d8b17dd00b76009da4c792e96fdcba3b8bf53e7a5ca33824e72"
+      },
+      "translated": {
+        "file": "translated.elrc",
+        "checksum": "sha256:c63fa7211fdaf5a88d6d85382990a297d4ef5e20c793641204b8de39b47f64c2"
+      }
+    },
+    "lineCount": 15
+  }
+]
