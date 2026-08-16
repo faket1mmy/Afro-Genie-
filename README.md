@@ -35,13 +35,37 @@ docs/         format spec and decision log
 ## Running it
 
 ```bash
-cd app
+git clone https://github.com/faket1mmy/Afro-Genie-.git
+cd Afro-Genie-/app
 npm install
-npm start          # then open in a dev build — not Expo Go, native modules
+npm run android      # or: npm run ios   (macOS + Xcode only)
 ```
 
-`expo-audio` is a native module, so Expo Go will not run this. Use
-`npx expo run:android` / `run:ios`, or a development build.
+**Expo Go will not run this.** `expo-audio` is a native module, so the app needs
+a development build. `npm run android` / `npm run ios` wrap `expo run:*`, which
+generates the native project and builds it — the first run takes several
+minutes, later ones are fast. Once it is installed, `npm start` alone is enough
+to reload JS.
+
+Prerequisites — the usual React Native ones, nothing extra:
+
+| Target | Needs |
+|---|---|
+| Android | Android Studio, an SDK platform, JDK 17, and a device or emulator |
+| iOS | macOS, Xcode, CocoaPods |
+
+`android/` and `ios/` are generated and git-ignored. Delete either and rebuild
+if native config drifts.
+
+### Checking sync on your device
+
+Home screen → **Sync diagnostics** → pick a song → **Run measurement**. Peak
+residual under 20ms with zero backwards steps means the clock is tracking your
+device's player. It cannot see output latency — if the words look right but land
+early or late as a block, that is the lyric nudge on the pre-performance screen,
+not this.
+
+### Scripts
 
 ```bash
 npm test           # 218 tests
