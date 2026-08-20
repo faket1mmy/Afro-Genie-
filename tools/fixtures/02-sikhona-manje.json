@@ -1,0 +1,135 @@
+{
+  "slug": "sikhona-manje",
+  "title": "Sikhona Manje",
+  "artist": "Afro-Genie Fixture Band",
+  "language": "zul",
+  "genre": ["amapiano"],
+  "mood": ["late-night", "hypnotic"],
+  "style": "amapiano",
+  "bpm": 112,
+  "key": "G minor",
+  "root_hz": 98.0,
+  "seed": 112,
+  "beats": 112,
+  "progression": [
+    [0, 3, 7],
+    [10, 14, 17],
+    [8, 12, 15],
+    [3, 7, 10]
+  ],
+  "quiet_sections": [{ "start": 36, "end": 48 }],
+  "blocks": {
+    "verse": {
+      "lines": [
+        {
+          "start": 0,
+          "end": 3.75,
+          "variants": {
+            "original": [
+              { "at": 0, "text": "Sawubona" },
+              { "at": 1.5, "text": "mngane" },
+              { "at": 3, "text": "wami" }
+            ],
+            "romanised": [
+              { "at": 0, "text": "sah-woo-BOH-nah" },
+              { "at": 1.5, "text": "mm-NGAH-neh" },
+              { "at": 3, "text": "WAH-mee" }
+            ],
+            "translated": [
+              { "at": 0, "text": "Hello" },
+              { "at": 1.5, "text": "my" },
+              { "at": 3, "text": "friend" }
+            ]
+          }
+        },
+        {
+          "start": 4,
+          "end": 7.75,
+          "variants": {
+            "original": [
+              { "at": 0, "text": "Sikhona" },
+              { "at": 1.5, "text": "manje" },
+              { "at": 2.75, "text": "lapha" }
+            ],
+            "romanised": [
+              { "at": 0, "text": "see-KOH-nah" },
+              { "at": 1.5, "text": "MAHN-jeh" },
+              { "at": 2.75, "text": "LAH-pah" }
+            ],
+            "translated": [
+              { "at": 0, "text": "We are here" },
+              { "at": 1.5, "text": "now" },
+              { "at": 2.75, "text": "in this place" }
+            ]
+          }
+        },
+        {
+          "start": 8,
+          "end": 11.75,
+          "variants": {
+            "original": [
+              { "at": 0, "text": "Ngiyabonga" },
+              { "at": 2, "text": "kakhulu" }
+            ],
+            "romanised": [
+              { "at": 0, "text": "ngee-yah-BOH-ngah" },
+              { "at": 2, "text": "kah-KOO-loo" }
+            ],
+            "translated": [
+              { "at": 0, "text": "Thank you" },
+              { "at": 2, "text": "very much" }
+            ]
+          }
+        },
+        {
+          "start": 12,
+          "end": 15.75,
+          "variants": {
+            "original": [
+              { "at": 0, "text": "Hamba" },
+              { "at": 1, "text": "kahle" },
+              { "at": 2.5, "text": "mngane" }
+            ],
+            "romanised": [
+              { "at": 0, "text": "HAHM-bah" },
+              { "at": 1, "text": "KAH-shleh" },
+              { "at": 2.5, "text": "mm-NGAH-neh" }
+            ],
+            "translated": [
+              { "at": 0, "text": "Go" },
+              { "at": 1, "text": "well," },
+              { "at": 2.5, "text": "friend" }
+            ]
+          }
+        },
+        {
+          "start": 16,
+          "end": 17.75,
+          "kind": "backing",
+          "variants": {
+            "original": [
+              { "at": 0, "text": "yebo" },
+              { "at": 1, "text": "yebo" }
+            ],
+            "romanised": [
+              { "at": 0, "text": "YEH-boh" },
+              { "at": 1, "text": "YEH-boh" }
+            ],
+            "translated": [
+              { "at": 0, "text": "yes" },
+              { "at": 1, "text": "yes" }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "arrangement": [
+    { "block": "verse", "at": 18 },
+    { "break": { "start": 36, "end": 48 } },
+    { "block": "verse", "at": 48 },
+    { "break": { "start": 66, "end": 76 } },
+    { "block": "verse", "at": 76 },
+    { "break": { "start": 94, "end": 112 } }
+  ]
+}

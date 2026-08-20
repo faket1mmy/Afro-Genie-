@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Afro-Genie",
+    "slug": "afro-genie",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "afrogenie",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0B0B12",
+    "ios": {
+      "bundleIdentifier": "com.afrogenie.karaoke",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.afrogenie.karaoke",
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0B12",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-audio", "expo-font", "expo-system-ui"]
+  }
+}

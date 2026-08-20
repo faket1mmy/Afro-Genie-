@@ -1,0 +1,159 @@
+{
+  "slug": "how-you-dey",
+  "title": "How You Dey",
+  "artist": "Afro-Genie Fixture Band",
+  "language": "pcm",
+  "genre": ["highlife"],
+  "mood": ["bright", "easy"],
+  "style": "highlife",
+  "bpm": 96,
+  "key": "C major",
+  "root_hz": 130.81,
+  "seed": 96,
+  "beats": 96,
+  "progression": [
+    [0, 4, 7],
+    [5, 9, 12],
+    [7, 11, 14],
+    [0, 4, 7]
+  ],
+  "quiet_sections": [{ "start": 32, "end": 44 }],
+  "blocks": {
+    "verse": {
+      "lines": [
+        {
+          "start": 0,
+          "end": 3.75,
+          "variants": {
+            "original": [
+              { "at": 0, "text": "How" },
+              { "at": 0.5, "text": "you" },
+              { "at": 1, "text": "dey" },
+              { "at": 2, "text": "my" },
+              { "at": 2.5, "text": "brother" }
+            ],
+            "romanised": [
+              { "at": 0, "text": "how" },
+              { "at": 0.5, "text": "yoo" },
+              { "at": 1, "text": "day" },
+              { "at": 2, "text": "mah" },
+              { "at": 2.5, "text": "BROH-dah" }
+            ],
+            "translated": [
+              { "at": 0, "text": "How" },
+              { "at": 0.5, "text": "are" },
+              { "at": 1, "text": "you," },
+              { "at": 2, "text": "my" },
+              { "at": 2.5, "text": "brother?" }
+            ]
+          }
+        },
+        {
+          "start": 4,
+          "end": 7.75,
+          "variants": {
+            "original": [
+              { "at": 0, "text": "We" },
+              { "at": 0.5, "text": "dey" },
+              { "at": 1.25, "text": "here" },
+              { "at": 2.25, "text": "well" },
+              { "at": 3, "text": "well" }
+            ],
+            "romanised": [
+              { "at": 0, "text": "wee" },
+              { "at": 0.5, "text": "day" },
+              { "at": 1.25, "text": "heeya" },
+              { "at": 2.25, "text": "wel" },
+              { "at": 3, "text": "wel" }
+            ],
+            "translated": [
+              { "at": 0, "text": "We" },
+              { "at": 0.5, "text": "are" },
+              { "at": 1.25, "text": "here" },
+              { "at": 2.25, "text": "doing" },
+              { "at": 3, "text": "fine" }
+            ]
+          }
+        },
+        {
+          "start": 8,
+          "end": 11.75,
+          "variants": {
+            "original": [
+              { "at": 0, "text": "Make" },
+              { "at": 0.5, "text": "we" },
+              { "at": 1, "text": "go" },
+              { "at": 2, "text": "chop" },
+              { "at": 2.75, "text": "life" }
+            ],
+            "romanised": [
+              { "at": 0, "text": "mek" },
+              { "at": 0.5, "text": "wee" },
+              { "at": 1, "text": "goh" },
+              { "at": 2, "text": "chop" },
+              { "at": 2.75, "text": "lyf" }
+            ],
+            "translated": [
+              { "at": 0, "text": "Let's" },
+              { "at": 1, "text": "go" },
+              { "at": 2, "text": "enjoy" },
+              { "at": 2.75, "text": "life" }
+            ]
+          }
+        },
+        {
+          "start": 12,
+          "end": 15.75,
+          "variants": {
+            "original": [
+              { "at": 0, "text": "Na" },
+              { "at": 0.5, "text": "so" },
+              { "at": 1, "text": "e" },
+              { "at": 1.5, "text": "be" },
+              { "at": 2.75, "text": "o" }
+            ],
+            "romanised": [
+              { "at": 0, "text": "nah" },
+              { "at": 0.5, "text": "soh" },
+              { "at": 1, "text": "eh" },
+              { "at": 1.5, "text": "bee" },
+              { "at": 2.75, "text": "oh" }
+            ],
+            "translated": [
+              { "at": 0, "text": "That's" },
+              { "at": 1, "text": "just how" },
+              { "at": 1.5, "text": "it is" }
+            ]
+          }
+        },
+        {
+          "start": 16,
+          "end": 17.75,
+          "kind": "backing",
+          "variants": {
+            "original": [
+              { "at": 0, "text": "ehn" },
+              { "at": 0.75, "text": "ehn" }
+            ],
+            "romanised": [
+              { "at": 0, "text": "en" },
+              { "at": 0.75, "text": "en" }
+            ],
+            "translated": [
+              { "at": 0, "text": "mm" },
+              { "at": 0.75, "text": "hmm" }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "arrangement": [
+    { "block": "verse", "at": 14 },
+    { "break": { "start": 32, "end": 44 } },
+    { "block": "verse", "at": 44 },
+    { "break": { "start": 62, "end": 70 } },
+    { "block": "verse", "at": 70 },
+    { "break": { "start": 88, "end": 96 } }
+  ]
+}

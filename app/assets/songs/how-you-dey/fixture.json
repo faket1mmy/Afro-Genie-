@@ -1,0 +1,40 @@
+{
+  "slug": "how-you-dey",
+  "title": "How You Dey",
+  "artist": "Afro-Genie Fixture Band",
+  "language": "pcm",
+  "genre": [
+    "highlife"
+  ],
+  "mood": [
+    "bright",
+    "easy"
+  ],
+  "bpm": 96,
+  "musicalKey": "C major",
+  "durationMs": 62500,
+  "audio": {
+    "file": "instrumental.m4a",
+    "format": "m4a",
+    "bitrate": "128k",
+    "sampleRate": 44100,
+    "loudnessLufs": -14.0,
+    "checksum": "sha256:4e0bb2d54c536e4088bb7a24f83e2a2e0c0ea38dbb87ed4ab9a07aa35a919bfb",
+    "source": "re_recorded"
+  },
+  "lyrics": {
+    "original": {
+      "file": "original.elrc",
+      "checksum": "sha256:5220807bf3923be1e0df798ca73b19592929823fcef64fa4168651c74954bb59"
+    },
+    "romanised": {
+      "file": "romanised.elrc",
+      "checksum": "sha256:4a29a67865122d8b17dd00b76009da4c792e96fdcba3b8bf53e7a5ca33824e72"
+    },
+    "translated": {
+      "file": "translated.elrc",
+      "checksum": "sha256:c63fa7211fdaf5a88d6d85382990a297d4ef5e20c793641204b8de39b47f64c2"
+    }
+  },
+  "lineCount": 15
+}

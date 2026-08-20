@@ -1,0 +1,155 @@
+{
+  "slug": "kaabo-si-ile",
+  "title": "Káàbọ̀ Sí Ilé",
+  "artist": "Afro-Genie Fixture Band",
+  "language": "yor",
+  "genre": ["afrobeats"],
+  "mood": ["warm", "celebratory"],
+  "style": "afrobeats",
+  "bpm": 108,
+  "key": "F minor",
+  "root_hz": 87.31,
+  "seed": 108,
+  "beats": 104,
+  "progression": [
+    [0, 3, 7],
+    [0, 3, 7],
+    [8, 12, 15],
+    [5, 8, 12]
+  ],
+  "quiet_sections": [{ "start": 34, "end": 46 }],
+  "blocks": {
+    "verse": {
+      "lines": [
+        {
+          "start": 0,
+          "end": 3.75,
+          "variants": {
+            "original": [
+              { "at": 0, "text": "Ẹ" },
+              { "at": 0.75, "text": "káàbọ̀" },
+              { "at": 1.75, "text": "sí" },
+              { "at": 2.5, "text": "ilé" }
+            ],
+            "romanised": [
+              { "at": 0, "text": "eh" },
+              { "at": 0.75, "text": "kaa-baw" },
+              { "at": 1.75, "text": "see" },
+              { "at": 2.5, "text": "ee-leh" }
+            ],
+            "translated": [
+              { "at": 0, "text": "Welcome" },
+              { "at": 1.75, "text": "to" },
+              { "at": 2.5, "text": "the house" }
+            ]
+          }
+        },
+        {
+          "start": 4,
+          "end": 7.75,
+          "variants": {
+            "original": [
+              { "at": 0, "text": "Ọ̀rẹ́" },
+              { "at": 1, "text": "mi" },
+              { "at": 2, "text": "ṣé" },
+              { "at": 2.5, "text": "o" },
+              { "at": 3, "text": "wà" }
+            ],
+            "romanised": [
+              { "at": 0, "text": "aw-reh" },
+              { "at": 1, "text": "mee" },
+              { "at": 2, "text": "sheh" },
+              { "at": 2.5, "text": "oh" },
+              { "at": 3, "text": "wah" }
+            ],
+            "translated": [
+              { "at": 0, "text": "My" },
+              { "at": 1, "text": "friend," },
+              { "at": 2, "text": "are" },
+              { "at": 2.5, "text": "you" },
+              { "at": 3, "text": "here?" }
+            ]
+          }
+        },
+        {
+          "start": 8,
+          "end": 11.75,
+          "variants": {
+            "original": [
+              { "at": 0, "text": "Mo" },
+              { "at": 0.5, "text": "ń" },
+              { "at": 1, "text": "lọ" },
+              { "at": 2, "text": "sí" },
+              { "at": 2.75, "text": "ọjà" }
+            ],
+            "romanised": [
+              { "at": 0, "text": "moh" },
+              { "at": 0.5, "text": "n" },
+              { "at": 1, "text": "law" },
+              { "at": 2, "text": "see" },
+              { "at": 2.75, "text": "aw-jah" }
+            ],
+            "translated": [
+              { "at": 0, "text": "I" },
+              { "at": 0.5, "text": "am" },
+              { "at": 1, "text": "going" },
+              { "at": 2, "text": "to" },
+              { "at": 2.75, "text": "market" }
+            ]
+          }
+        },
+        {
+          "start": 12,
+          "end": 15.75,
+          "variants": {
+            "original": [
+              { "at": 0, "text": "Ayọ̀" },
+              { "at": 1.25, "text": "wà" },
+              { "at": 2, "text": "nínú" },
+              { "at": 3, "text": "ọkàn" }
+            ],
+            "romanised": [
+              { "at": 0, "text": "ah-yaw" },
+              { "at": 1.25, "text": "wah" },
+              { "at": 2, "text": "nee-noo" },
+              { "at": 3, "text": "aw-kahn" }
+            ],
+            "translated": [
+              { "at": 0, "text": "Joy" },
+              { "at": 1.25, "text": "is" },
+              { "at": 2, "text": "in the" },
+              { "at": 3, "text": "heart" }
+            ]
+          }
+        },
+        {
+          "start": 16,
+          "end": 17.75,
+          "kind": "backing",
+          "variants": {
+            "original": [
+              { "at": 0, "text": "ó" },
+              { "at": 0.75, "text": "yá" }
+            ],
+            "romanised": [
+              { "at": 0, "text": "oh" },
+              { "at": 0.75, "text": "yah" }
+            ],
+            "translated": [
+              { "at": 0, "text": "let's" },
+              { "at": 0.75, "text": "go" }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "arrangement": [
+    { "block": "verse", "at": 16 },
+    { "break": { "start": 34, "end": 46 } },
+    { "block": "verse", "at": 46 },
+    { "break": { "start": 64, "end": 72 } },
+    { "block": "verse", "at": 72 },
+    { "break": { "start": 90, "end": 104 } }
+  ]
+}
